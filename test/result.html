@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>感情分析結果</title>
+  </head>
+  <body>
+    <h1>感情分析結果</h1>
+    <p>入力テキスト: {{ text }}</p>
+    <p>ネガティブ度: {{ scores['neg'] }}</p>
+    <p>ニュートラル度: {{ scores['neu'] }}</p>
+    <p>ポジティブ度: {{ scores['pos'] }}</p>
+    <p>複合スコア: {{ scores['compound'] }}</p>
+    <a href="/">戻る</a>
+  </body>
+</html>
